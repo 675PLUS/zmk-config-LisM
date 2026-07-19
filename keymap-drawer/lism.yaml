@@ -38,9 +38,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: Num Layer}
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-up$$
-  - {t: Num Layer, h: toggle}
+  - Device Layer
   - Num Layer
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:pan-left$$
@@ -63,23 +63,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
-  - FSLH
+  - SEMI
+  - '-'
+  - '='
+  - SQT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
-  - ASTRK
+  - {t: ▽, type: trans}
+  - '='
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -87,11 +87,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: PERIOD, h: Default Layer, type: held}
+  - {t: PERIOD, h: Device Layer}
   - {t: ▽, type: trans}
-  - {t: KP 0, h: Default Layer}
-  - +
-  - '-'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,11 +134,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: Default Layer, h: toggle}
   - $$mdi:lock-open-variant-outline$$
+  - {t: '$$mdi:keyboard-return$$', h: Default Layer}
   - ''
-  - ''
-  - ''
+  - {type: held}
   - ''
   - $$mdi:progress-download$$
   - {t: ▽, type: trans}
